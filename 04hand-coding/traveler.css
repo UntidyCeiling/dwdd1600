@@ -22,7 +22,7 @@ header p {
 }
 /*nav stuff goes here*/
 nav {
-    background-color: #A06CD5;
+    background-color: #CCDCFF;
     
     
 }
@@ -35,7 +35,7 @@ nav ul {
 nav ul li a {
     font-size: 1.1rem;
     text-decoration: none;
-    color: #F5E5DD;
+    color: #511573;
     font-weight: 700;
     display: block;
     padding: .83rem 2rem; 
@@ -43,7 +43,7 @@ nav ul li a {
 
 nav li.active a {
     background-color: #F5E5DD;
-        color: #A06CD5;
+        color: #002062;
 }
 nav a:hover {
     color: white;
