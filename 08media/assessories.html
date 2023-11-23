@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+        <head>
+             <title>The Dream of Disney</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta charset="UTF-8">
+            <meta name="description" content="Learn about the Declaration of Independence of the United States">
+            <meta name="author" content="Savannah Longmore">
+         <link rel="stylesheet" href="traveler.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>
+        <body>
+            <!-- Start of the page header -->
+            <header>
+                <h1>The Dream of Disney</h1>
+                <p>Accessories</p>
+            </header>
+            <!-- Start of the page navigation -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">The Magical History of Disney</a></li>
+                     <li><a href="parksandcruises.html">Parks and Cruises</a></li>
+                    <li><a href= "placestostay.html"> Places to Stay</a></li>
+                    <li class="active"><a href="assessories.html"> Accessories</a></li>
+                    <li><a href="sponsors.html"> Sponsors</a></li>
+                    <li><a href="contactus.html"> Contact Us</a></li>
+                       </ul>
+            </nav>
+            <!-- Start of the page Content -->
+            <main>
+         <h1>Request a Payment</h1>
+                <form method="get" class="myForm" action="thanks.html">
+            <fieldset>
+            <legend> Customer Information</legend>
+               <label>First Name*<input type="text" name="fname" required></label>
+        
+            <label>Last Name*<input type="text" name="lname" required></label>
+            
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-4321"></label>
+                
+            <label>Email*<input type="text" name="email" required placeholder="*****@gmail.com"></label>
+                
+            </fieldset>
+            
+            <fieldset> 
+            <legend>Delivery Method</legend>
+                <label><input type="radio" name="method" value="Fastest Delivery"> Fastest Delivery (2-3 business days)</label>
+                <label><input type="radio" name="method" value="Free Delivery"> FREE Delivery (5-10 business days)</label>
+            </fieldset>
+            
+            <feildset>
+            <legend>Delivery Options</legend>
+           <label><input type="checkbox" name="Front Door" value="chosen"> Front Door </label> 
+            <label><input type="checkbox" name="front porch" value="chosen"> Front Porch </label>
+            <label><input type="checkbox" name="mailbox" value="chosen"> Mailbox </label>
+            <label><input type="checkbox" name="garage" value="chosen"> Inside the Garage </label>
+            <label><input type="checkbox" name="other" value="chosen"> Other </label>
+                  <label>
+                <textarea name="other" placeholder= "Please add any specific instructions for your purchase"></textarea></label>
+                
+                
+            <legend>Delivery Carriers</legend>
+            <select name="carriers">
+            <option value="none">Select a Shipping Carrier</option>
+             <option value="ups">UPS</option>   
+            <option value="usps">USPS</option> 
+            <option value="fedex">FedEx</option> 
+                </select>
+            </feildset>
+            
+            <label> Comments
+                <textarea name="comments"></textarea>
+            
+            
+            </label>
+            
+        <input type="submit" value="Send Delivery Request">
+            </form> 
+            </main>
+            <!-- Start of the page footer -->
+            <footer>
+            <p>&copy; 2023 &bull; Savannah Longmore &bull; <a href="mailto:savannahlongfour@gmail.com">Email Us</a></p>
+            </footer>
+        </body>
+</html>
